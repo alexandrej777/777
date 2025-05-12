@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+    <head>
+        <title>Continentes</title>
+        <meta charset="UTF-8">
+</head>
+<body>
+   <!--Página--> 
+   <h1>Continentes</h1>
+   <hr>
+   <p>os <b>Continentes</b> 
+    <abbr title="América">
+        </abbr>
+        <p>
+            <hr>
+            <h2>América</h2>
+        </p></u>    
+    </p>
+    <ol>
+    <li>América Central</li>
+    <li>América do Sul</li>
+    <li>América do Norte</li>
+    
+</ol>
+<hr>
+<h2>Àfrica</h2>
+<ol>
+<p></p>
+<ul></ul>
+<li>África Setentrional</li>
+<li>África Ocidental</li>
+<li>África Central</li>
+<li>África Oriental</li>
+<li>África Meridional</li>
+</ol>
+<hr>
+<h3>Antártida</h3>
+<ol>
+    <li>Antártida Oriental</li>
+    <li>Antártida Ocidental</li>
+</ol>
+    <hr>
+    <ol>
+        <ul type="circle"></ul>
+    <h4>Asia</h4>
+    <h5>Europa</h5>
+    <h6>Oceania</h6>
+    </ul>
+    </ol>
+</p>
+</ul>
+<a href="index.html">Smartphone</a>
+</body>
+</html>

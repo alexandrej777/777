@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato - Empresa Exemplo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, nav, footer {
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+    section {
+      padding: 20px;
+    }
+    form {
+      max-width: 600px;
+      margin: auto;
+    }
+    input, select, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    label {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- a) Cabeçalho com logo -->
+  <header>
+    <img src="logo.png" alt="Logo da Empresa" width="150">
+  </header>
+
+  <!-- b) Navegação -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="servicos.html">Serviços</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- c) Formulário de contato -->
+  <section>
+    <h1>Fale Conosco</h1>
+    <form action="#" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+      <label for="setor">Setor:</label>
+      <select id="setor" name="setor" required>
+        <option value="">Selecione</option>
+        <option value="comercial">Comercial</option>
+        <option value="suporte">Suporte</option>
+        <option value="ouvidoria">Ouvidoria</option>
+      </select>
+
+      <label for="assunto">Assunto:</label>
+      <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Empresa Exemplo. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
